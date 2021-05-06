@@ -4,13 +4,113 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coursera Module 2</title>
+    <title>Coursera Module 2 Assigment</title>
+<style>
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: lightgray;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 120%;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .Container {
+        /*width: 32%;*/
+        height:inherit;
+        border: solid 3px rgb(50, 137, 218);
+        background-color: rgb(166, 219, 221);
+        border-radius: 5px;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .title {
+        width:auto;
+        height:inherit;
+        padding: 1px 10px 1px 10px;
+        float: right;
+        border: solid 2px rgb(255, 217, 0);
+        background-color: blue;
+        border-radius: 5px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-weight: 600;
+        color: white;
+    }
+
+    .content {
+        padding: 15px 3px 5px 3px;
+        text-align: justify;
+    }
+
+    /***** Screen Media Refferences *****/
+    /***** Screen Desktop (sc-desk) - Screen Tablet (sc-tab) - Screen Mobile (sc-mob) *****/
+
+    /***** Screen Desktop (sc-desk) *****/
+
+    @media (min-width: 992px) {
+        .sc-desk {
+            float: left;
+            width: 32%;
+        }
+    }
+
+    /***** Screen Tablet (sc-tab) *****/
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        .sc-tab {
+            float: left;
+            width: 48.6%;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+        .menus {
+            float: left;
+            width: 98.5%;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .sc-mob {
+            float: left;
+            width: 98%;
+        }
+    }
+ 
+</style>
 </head>
 <body>
-    <h1>Module 2 Solution Lest do a Try... ???</h1>
-    <h2>This is on my PC now...</h2>
-    <p>It is faster from pc?</p>
-    <a>Now lets check from the Mac...</a>
+    <h1>Welcome to Our Business</h1>
     
+    <div class="row">
+        <div class="Container cards sc-desk sc-tab sc-mob">
+            <div class="title">Business Cards</div>
+            <div class="content"><h2>Elegant Cards</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae velit repellendus, odit quisquam officia nam voluptatum libero repellat enim blanditiis delectus totam vitae minus amet. Perferendis inventore dolores incidunt deleniti.</div>      
+        </div>
+        <div class="Container banners sc-desk sc-tab sc-mob">
+            <div class="title">Outdoor Banners</div>
+            <div class="content"><h2>Durable Banners</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae velit repellendus, odit quisquam officia nam voluptatum libero repellat enim blanditiis delectus totam vitae minus amet. Perferendis inventore dolores incidunt deleniti.</div>      
+        </div>
+        <div class="Container menus sc-desk sc-tab sc-mob">
+            <div class="title">Restaurant Menus</div>
+            <div class="content"><h2>Best Menu Design</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae velit repellendus, odit quisquam officia nam voluptatum libero repellat enim blanditiis delectus totam vitae minus amet. Perferendis inventore dolores incidunt deleniti.</div>      
+        </div>
+    </div>
+ 
 </body>
 </html>
